@@ -2,14 +2,16 @@ import I18nKeys from "./src/locales/keys";
 import type { Configuration } from "./src/types/config";
 
 const YukinaConfig: Configuration = {
-  title: "Yukina",
-  subTitle: "Yukina Template Demo Site",
-  brandTitle: "Yukina",
+  title: "Daniel Bautista",
+  subTitle: "Portafolio — Programador Full-Stack (front-end)",
+  brandTitle: "Daniel Bautista",
 
-  description: "Demo Site",
+  description:
+    "Portafolio de Daniel Bautista — Programador full-stack con enfoque en front-end. Apasionado por el cine, el deporte, la alimentación saludable y los animales. Creador de contenido motivacional y de superación.",
 
   site: "https://danilletti.github.io",
 
+  // Cambié a español porque tu contenido está en español
   locale: "en", // set for website language and date format
 
   navigators: [
@@ -27,28 +29,35 @@ const YukinaConfig: Configuration = {
     },
     {
       nameKey: I18nKeys.nav_bar_github,
-      href: "https://github.com/WhitePaper233/yukina",
+      href: "https://github.com/Danilletti",
     },
   ],
 
-  username: "WhitePaper 白芷",
-  sign: "Ad Astra Per Aspera.",
-  avatarUrl: "https://s2.loli.net/2025/01/25/FPpTrQSezM8ivbl.webp",
+  username: "Daniel Bautista",
+  sign: "Crear. Inspirar. Superar.",
+  // usa una imagen local en /public/avatar.jpg (sube tu foto ahí)
+  avatarUrl: "/avatar.jpg",
+
   socialLinks: [
     {
       icon: "line-md:github-loop",
-      link: "https://github.com/WhitePaper233",
+      link: "https://github.com/Danilletti",
     },
     {
-      icon: "mingcute:bilibili-line",
-      link: "https://space.bilibili.com/22433608",
+      icon: "line-md:linkedin",
+      link: "https://linkedin.com/in/tu-perfil", // reemplaza por tu perfil real
     },
     {
-      icon: "mingcute:netease-music-line",
-      link: "https://music.163.com/#/user/home?id=125291648",
+      icon: "line-md:instagram",
+      link: "https://instagram.com/tu_usuario", // reemplaza si quieres otro canal (TikTok/YouTube)
+    },
+    {
+      icon: "line-md:mail",
+      link: "mailto:tu@email.com", // reemplaza por tu email real
     },
   ],
-  maxSidebarCategoryChip: 6, // It is recommended to set it to a common multiple of 2 and 3
+
+  maxSidebarCategoryChip: 6,
   maxSidebarTagChip: 12,
   maxFooterCategoryChip: 6,
   maxFooterTagChip: 24,
