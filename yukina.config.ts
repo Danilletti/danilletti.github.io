@@ -8,9 +8,9 @@ const YukinaConfig: Configuration = {
 
   description: "Demo Site",
 
-  site: "https://yukina-blog.vercel.app",
+  site: "danilletti.github.io",
 
-  locale: "en", // set for website language and date format
+  locale: "es", // set for website language and date format
 
   navigators: [
     {
