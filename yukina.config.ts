@@ -8,9 +8,9 @@ const YukinaConfig: Configuration = {
 
   description: "Demo Site",
 
-  site: "danilletti.github.io",
+  site: "https://danilletti.github.io",
 
-  locale: "es", // set for website language and date format
+  locale: "en", // set for website language and date format
 
   navigators: [
     {
