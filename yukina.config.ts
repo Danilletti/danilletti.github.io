@@ -31,12 +31,16 @@ const YukinaConfig: Configuration = {
       nameKey: I18nKeys.nav_bar_github,
       href: "https://github.com/Danilletti",
     },
+    {
+      nameKey: I18nKeys.nav_bar_about,
+      href: "/presentacion",
+    },
   ],
 
   username: "Daniel Bautista",
   sign: "Crear. Inspirar. Superar.",
   // usa una imagen local en /public/avatar.jpg (sube tu foto ahí)
-  avatarUrl: "/avatar.jpg",
+  avatarUrl: "src/assets/imgs/6.jpeg",
 
   socialLinks: [
     {
@@ -44,16 +48,16 @@ const YukinaConfig: Configuration = {
       link: "https://github.com/Danilletti",
     },
     {
-      icon: "line-md:linkedin",
-      link: "https://linkedin.com/in/tu-perfil", // reemplaza por tu perfil real
+      icon: "mdi:linkedin",
+      link: "https://linkedin.com/in/tu-perfil",
     },
     {
-      icon: "line-md:instagram",
-      link: "https://instagram.com/tu_usuario", // reemplaza si quieres otro canal (TikTok/YouTube)
+      icon: "mdi:instagram",
+      link: "https://instagram.com/tu_usuario",
     },
     {
-      icon: "line-md:mail",
-      link: "mailto:tu@email.com", // reemplaza por tu email real
+      icon: "mdi:email-outline",
+      link: "mailto:tu@email.com",
     },
   ],
 
@@ -63,8 +67,6 @@ const YukinaConfig: Configuration = {
   maxFooterTagChip: 24,
 
   banners: [
-    "https://s2.loli.net/2025/01/25/PBvHFjr5yDu6t4a.webp",
-    "https://s2.loli.net/2025/01/25/6bKcwHZigzlM4mJ.webp",
     "https://s2.loli.net/2025/01/25/H9WgEK6qNTcpFiS.webp",
     "https://s2.loli.net/2025/01/25/njNVtuUMzxs81RI.webp",
     "https://s2.loli.net/2025/01/25/tozsJ8QHAjFN3Mm.webp",
