@@ -11,17 +11,12 @@ const YukinaConfig: Configuration = {
 
   site: "https://danilletti.github.io",
 
-  // Cambié a español porque tu contenido está en español
-  locale: "en", // set for website language and date format
+  locale: "en",
 
   navigators: [
     {
       nameKey: I18nKeys.nav_bar_home,
       href: "/",
-    },
-    {
-      nameKey: I18nKeys.nav_bar_archive,
-      href: "/archive",
     },
     {
       nameKey: I18nKeys.nav_bar_about,
@@ -30,11 +25,7 @@ const YukinaConfig: Configuration = {
     {
       nameKey: I18nKeys.nav_bar_github,
       href: "https://github.com/Danilletti",
-    },
-    {
-      nameKey: I18nKeys.nav_bar_about,
-      href: "/presentacion",
-    },
+    }
   ],
 
   username: "Daniel Bautista",
@@ -53,11 +44,11 @@ const YukinaConfig: Configuration = {
     },
     {
       icon: "mdi:instagram",
-      link: "https://instagram.com/tu_usuario",
+      link: "https://www.instagram.com/danielleti_/",
     },
     {
       icon: "mdi:email-outline",
-      link: "mailto:tu@email.com",
+      link: "mailto:jbautistaa@unbosque.edu.co",
     },
   ],
 
@@ -67,12 +58,10 @@ const YukinaConfig: Configuration = {
   maxFooterTagChip: 24,
 
   banners: [
-    "https://s2.loli.net/2025/01/25/H9WgEK6qNTcpFiS.webp",
-    "https://s2.loli.net/2025/01/25/njNVtuUMzxs81RI.webp",
-    "https://s2.loli.net/2025/01/25/tozsJ8QHAjFN3Mm.webp",
-    "https://s2.loli.net/2025/01/25/Pm89OveZq7NWUxF.webp",
-    "https://s2.loli.net/2025/01/25/UCYKvc1ZhgPHB9m.webp",
-    "https://s2.loli.net/2025/01/25/JjpLOW8VSmufzlA.webp",
+    "src/assets/imgs/computer-program-coding-screen (1).jpg",
+    "src/assets/imgs/thumb-1920-1315629.png",
+    "src/assets/imgs/pair-gloves-boxing-sport.jpg",
+    "src/assets/imgs/silhouette-human-hand-holding-bible-cross-background-is-sunrise (1).jpg"
   ],
 
   slugMode: "HASH", // 'RAW' | 'HASH'
